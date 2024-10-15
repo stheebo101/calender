@@ -1,0 +1,78 @@
+body {
+  background-color: WHITE;
+
+  display: grid;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 100vh;
+}
+
+.head {
+  text-align: center;
+}
+
+.calender {
+  display: grid;
+
+  grid-template-columns: repeat(4, 32.5%);
+
+  gap: 1rem;
+
+  place-content: center;
+}
+
+.header {
+  background-color: lightskyblue;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+}
+
+.days {
+  background-color: rgb(149, 216, 238);
+}
+
+.holidays {
+  background-color: rgb(240, 240, 170);
+
+  color: rgb(55, 109, 126);
+}
+
+.weekend {
+  background-color: rgb(236, 233, 233);
+}
+
+.school {
+  background-color: rgb(198, 233, 245);
+}
+
+.exam {
+  background-color: rgb(245, 229, 200);
+}
+
+.sp {
+  background-color: rgb(252, 215, 148);
+}
+
+.poe {
+  background-color: rgb(240, 157, 240);
+}
+
+.start {
+  display: grid;
+  grid-template-columns: repeat(2, 66.8%);
+  gap: 1rem;
+  justify-content: center;
+}
